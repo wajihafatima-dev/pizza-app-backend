@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "name": "your-project-name",
+  "name": "pizza-app-backend",
   "builds": [
     {
-      "src": "index.js",
+      "src": "server/index.js",
       "use": "@vercel/node"
     },
     {
@@ -22,4 +22,5 @@
     }
   ]
 }
+
 
